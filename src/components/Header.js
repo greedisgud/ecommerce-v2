@@ -5,9 +5,14 @@ const Header = ({ cartItems }) => {
   return (
     <div className="header">
       <h1>
-        <Link to="/">Golf World</Link>
+        <Link to="/ecommerce-v2/">Golf World</Link>
       </h1>
       <div className="header-links">
+        <ul>
+          <li>
+            <Link to="/ecommerce-v2/">Home</Link>
+          </li>
+        </ul>
         <ul>
           <li>
             <Link to="/signup">Signup</Link>
