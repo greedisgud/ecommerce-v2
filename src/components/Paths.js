@@ -14,7 +14,7 @@ const Paths = ({
     <div className="routes">
       <Routes>
         <Route
-          path="/"
+          path="/ecommerce-v2/"
           element={
             <Products
               productItems={productItems}
