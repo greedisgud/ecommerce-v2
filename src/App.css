@@ -1,38 +1,202 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../public/images/golf.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  margin-bottom: 100px;
+  background-color: rgba(36, 133, 72, 0.8);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
+  list-style: none;
+}
+
+.productImage {
+  width: 350px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin: auto;
+  line-height: 24px;
+  text-align: center;
+  width: 1800px;
+}
+
+.product {
+  background-color: rgb(65, 65, 65, 0.7);
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+  font-size: 25px;
+}
+
+.footer {
+  font-size: 20px;
+  background-color: rgba(36, 133, 72, 0.8);
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+  padding-top: 20px;
+}
+
+.cartIcon {
+  background-color: rgb(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: border-color 0.2s ease;
+  -webkit-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  background-color: transparent;
+  border: solid 1px !important;
+  border-color: rgba(255, 255, 255, 0.781) !important;
+  border-radius: 3em;
+  color: #ffffff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  height: calc(4.75em + 2px);
+  letter-spacing: 0.25em;
+  line-height: 4.75em;
+  outline: 0;
+  padding: 0 3.75em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 10px;
+}
+
+button:hover {
+  background-color: rgb(19, 103, 14);
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.signupForm {
+  background-color: rgb(90, 65, 43, 0.8);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  padding: 80px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.signup {
+  height: 80vh;
+}
+
+.passInput {
+  margin-bottom: 40px;
+}
+
+.cartItemHeader {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: #ffffff;
+  background-color: rgb(0, 131, 15);
+  width: 300px;
+  padding: 6px 6px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 0.75em;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cartMessage {
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.cartItems {
+  background-color: rgba(8, 11, 17, 0.8);
+  width: 600px;
+  height: 800px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 40px;
+  padding-top: 20px;
+  color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.cartItemList {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  width: 520px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.productImageCart {
+  width: 120px;
+}
+
+.cartBtnContainer {
+  display: flex;
+  gap: 20px;
 }
