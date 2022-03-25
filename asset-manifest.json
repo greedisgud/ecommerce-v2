@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ecommerce-v2/static/css/main.90024e8f.css",
+    "main.js": "/ecommerce-v2/static/js/main.46d5e341.js",
+    "static/media/golf.jpeg": "/ecommerce-v2/static/media/golf.227b645858c04268da03.jpeg",
+    "index.html": "/ecommerce-v2/index.html",
+    "main.90024e8f.css.map": "/ecommerce-v2/static/css/main.90024e8f.css.map",
+    "main.46d5e341.js.map": "/ecommerce-v2/static/js/main.46d5e341.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90024e8f.css",
+    "static/js/main.46d5e341.js"
+  ]
+}
